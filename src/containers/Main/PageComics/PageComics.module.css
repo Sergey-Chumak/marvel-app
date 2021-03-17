@@ -9,6 +9,7 @@
 
 .PageComics .imgComics {
     max-width: 50vh;
+    width: 40vh;
     border-radius: 15px;
     margin: 30px;
 }
