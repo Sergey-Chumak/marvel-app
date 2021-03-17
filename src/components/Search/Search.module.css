@@ -13,6 +13,7 @@
     margin-right: 5px;
     max-height: 30px;
     color: white;
+    width: 20vh;
 }
 
 .Search input:focus {
