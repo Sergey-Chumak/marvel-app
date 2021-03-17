@@ -3,4 +3,5 @@
     display: flex;
     flex-flow: column;
     color: white;
+    background:  linear-gradient(90deg, #242222 0%, #636363 100% );
 }
