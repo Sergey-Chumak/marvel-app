@@ -1,0 +1,90 @@
+.heroes, .comics {
+    border: 0px solid #212020;
+    border-radius: 15px;
+    margin: 20px;
+    flex: 1 1 17%;
+    height: 50vh;
+    min-height: 15vh;
+    min-width: 25vh;
+    background: linear-gradient(150deg, #282727 0%, #868585 37%, #323131 100%);
+    max-height: 40vh;
+    max-width: 30vh;
+    opacity: .8;
+    box-shadow: 0px 7px 10px 1px #302f2f;
+    transition: all .25s ease-in-out;
+}
+
+.heroes p, .comics p {
+    color: white;
+    width: auto;
+    margin: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+
+ .heroes img{
+    border-radius: 12px 12px 0px 0px;
+    width: 100%;
+    height: 60%;
+}
+
+.heroes:hover, .comics:hover {
+    background: linear-gradient(150deg, #b73940 0%, #9f1616 37%, #5d1414 100%);
+    opacity: 1;
+    box-shadow: 0px 17px 22px 1px #242424;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+ .text {
+     height: 40%;
+     display: flex;
+     flex-flow: column;
+     justify-content: space-between;
+     margin-bottom: 0;
+     padding-bottom: 0;
+ }
+
+.name {
+     font-size: max(1.2vw, 10px);
+     text-align: center;
+     color: #fa9999  !important;
+     font-weight: bold;
+     z-index: 100;
+ }
+
+.description {
+     font-size: max(1vw, 8px);
+     text-align: left;
+ }
+
+.comics {
+    max-height: 40vh;
+}
+
+.comics img{
+    border-radius: 12px 12px 0px 0px;
+    width: 100%;
+    height: 70%;
+}
+
+.comics .description {
+    font-size: max(1vw, 10px);
+    text-align: center;
+    color: #fcaeae;
+    font-weight: bold;
+}
+.comics .text{
+    height: 30%;
+}
+
+.comics a, .heroes a {
+    text-decoration: none;
+}
+
+.tooltip {
+    
+}

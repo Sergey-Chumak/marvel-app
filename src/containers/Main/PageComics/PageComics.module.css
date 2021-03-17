@@ -1,0 +1,42 @@
+.PageComics {
+    display: flex;
+    flex-flow: column;
+    color: white;
+    text-align: center;
+    background:  linear-gradient(90deg, #242222 0%, #636363 100% );
+}
+
+
+.PageComics .imgComics {
+    max-width: 50vh;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.containerHeroes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    overflow-x: auto;
+}
+
+.heroesNotFound {
+    font-size: max(2.8vw, 18px);
+    margin-top: 20vh;
+}
+
+.comics h1{
+    font-size: max(2.9vw, 24px);
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.comics p {
+    font-size: max(1.5vw, 18px);
+}
+
+.titleListHeroes {
+    font-size: max(2.6vw, 20px);
+    color: #fa9999;
+}

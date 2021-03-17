@@ -1,0 +1,14 @@
+.DescriptionMarvel {
+    text-align: center;
+}
+
+.descriptionText {
+    font-size: max(1.2vw, 12px);
+}
+.DescriptionMarvel h1 {
+    font-size: max(2.7vw, 24px);
+}
+
+.DescriptionMarvel a {
+    text-decoration: none;
+}

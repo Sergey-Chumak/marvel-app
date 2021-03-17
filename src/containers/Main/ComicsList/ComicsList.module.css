@@ -1,0 +1,20 @@
+.ComicsList {
+    color: white;
+    background: linear-gradient(90deg, #242222 0%, #636363 100% );
+    text-align: center;
+}
+
+.comicsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px 20px 0 20px;
+
+}
+
+.ComicsList h1{
+    font-size: max(3.5vw, 24px);
+    padding-top: 20px;
+    font-weight: bold;
+
+}

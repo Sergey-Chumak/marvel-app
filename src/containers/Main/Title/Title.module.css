@@ -1,0 +1,6 @@
+.Title {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    color: white;
+}

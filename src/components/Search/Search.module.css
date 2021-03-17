@@ -1,0 +1,63 @@
+.Search {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    z-index: 100;
+}
+
+.Search input {
+    font-size: max(1vw, 12px);
+    background-color: #2b2a2a;
+    border-radius: 7px;
+    margin-right: 5px;
+    max-height: 30px;
+    color: white;
+}
+
+.Search input:focus {
+    outline: none;
+}
+
+.Search input::placeholder {
+    color: #a0a0a0;
+}
+
+.heroes {
+    border-radius: 15px 15px 0 0;
+    background-color: #1c1a1a;
+    text-align: left;
+    z-index: 100;
+    padding: 10px;
+}
+.comics {
+    border-radius: 0 0 15px 15px;
+    background-color: #1c1a1a;
+    text-align: left;
+    z-index: 100;
+    padding: 10px;
+}
+
+.container {
+    position: absolute;
+    font-size: max(0.8vw, 8px);
+    color: white;
+    max-width: 50vh;
+    margin-right: 20px;
+    right: 0;
+    top: 9vh;
+    overflow: auto;
+    max-height: 85%;
+}
+
+.container ul li{
+    list-style-type: none;
+    color: white;
+    padding: 3px;
+    transition: color .22s ;
+}
+
+.container ul li:hover {
+    color: gray;
+}
+

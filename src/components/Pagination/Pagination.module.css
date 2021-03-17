@@ -1,0 +1,27 @@
+.Pagination {
+    text-align: center;
+}
+
+.PaginationButtons button {
+    font-size: max(1.4vw, 12px);
+    color: white;
+    border-radius: 35%;
+    transition: color .3s;
+}
+
+.PaginationButtons div {
+    color: white;
+    font-size: max(1.4vw, 12px);
+}
+
+.PaginationButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.PaginationButtons button:hover {
+    background:none;
+    color: grey;
+}
+
+
