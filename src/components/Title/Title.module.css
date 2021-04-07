@@ -3,9 +3,5 @@
     display: flex;
     flex-flow: column;
     color: white;
-    background:  linear-gradient(90deg, #242222 0%, #636363 100% );
-<<<<<<< HEAD:src/components/Title/Title.module.css
+    background: linear-gradient(90deg, #242222 0%, #636363 100%);
 }
-=======
-}
->>>>>>> 1e12f0e3671dc2408e989770afc14ebe1bd57fc0:src/containers/Main/Title/Title.module.css
