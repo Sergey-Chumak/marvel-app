@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+Test app Marvel
+Задание Используя публичный API https://developer.marvel.com/ реализовать приложение на React/Angular/Vue.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Бизнес требования: Главная страница Описание проекта
 
-## Available Scripts
+Переход на список героев
 
-In the project directory, you can run:
+Переход на список комиксов
 
-### `yarn start`
+Страница со списком героев Краткое описание
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Превью изображения героя (thumbnail)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Возможностью поиска
 
-### `yarn test`
+Постраничный просмотр
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Переход на страницу героя
 
-### `yarn build`
+Персональная страница героя Детальное описание
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Изображение героя
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ссылки на внешние ресурсы (wiki, comiclink, …)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Списков комиксов с участием героя с возможностью перехода на страницу конкретного комикса
 
-### `yarn eject`
+Страница со списком комиксов Краткое описание
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Переход к странице с деталями выбранного комикса
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Страница с детальным описанием комикса Детальное описание
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Список героев с переходом на персональную страницу героя
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Технические требования: Mobile First вёрстка (страницы должны прилично выглядеть на смартфоне)
 
-## Learn More
+Routing – то есть приложение должно состоять из нескольких страниц с возможностью навигации
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Индикация загрузки данных и обработка ошибок
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Документированный и структурированный исходный код
 
-### Code Splitting
+Крайне желательно: Хостинг приложения на общедоступном ресурсе (github, firebase, …)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Хостинг исходного кода на общедоступном ресурсе

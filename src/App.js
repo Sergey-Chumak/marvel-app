@@ -1,13 +1,15 @@
+import React from 'react'
 import './App.css'
-import Layout from '../src/hoc/Layout/Layout'
+import Layout from './Layout/Layout'
 
 
 
 function App() {
-  return (
-   <Layout>
-   </Layout>
-  )
+	return (
+		<Layout>
+		</Layout>
+	)
 }
 
-export default App;
+export default App
+ 
